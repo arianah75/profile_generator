@@ -16,7 +16,7 @@ rl.question("What's your name? Nicknames are also acceptable :) ", (name) => {
     rl.question("What do you listen to while doing that? ", (music) => {
       answers.music = music;
 
-      rl.question("Which meal is your favourite ?", (meal) => {
+      rl.question("Which meal is your favourite? ", (meal) => {
         answers.meal = meal;
 
         rl.question(
@@ -31,7 +31,7 @@ rl.question("What's your name? Nicknames are also acceptable :) ", (name) => {
                 "What is your superpower? In a few words, tell us what you are amazing at! ",
                 (superpower) => {
                   answers.superpower = superpower;
-                  rl.question("What is your favourite show?", (show) => {
+                  rl.question("What is your favourite show? ", (show) => {
                     answers.show = show;
 
                     // Generate profile
